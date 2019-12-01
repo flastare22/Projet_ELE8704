@@ -1,0 +1,1097 @@
+[
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.824695000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.824695000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "169",
+          "frame.cap_len": "169",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:ee:61:c1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:0c:29:ed:5f:b1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "155",
+          "ip.id": "0x000071e3",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000b4c5",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.src_host": "192.168.152.132",
+          "ip.host": "192.168.152.132",
+          "ip.dst": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.dst_host": "172.217.13.174",
+          "ip.host": "172.217.13.174"
+        },
+        "tcp": {
+          "tcp.srcport": "44246",
+          "tcp.dstport": "443",
+          "tcp.port": "44246",
+          "tcp.port": "443",
+          "tcp.stream": "0",
+          "tcp.len": "115",
+          "tcp.seq": "1",
+          "tcp.nxtseq": "116",
+          "tcp.ack": "1",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "62780",
+          "tcp.window_size": "62780",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x00001442",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "115",
+            "tcp.analysis.push_bytes_sent": "115"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.payload": "17:03:03:00:6e:f2:50:55:64:60:2b:a3:08:f0:62:e4:2e:c4:0a:fa:5e:6f:35:a0:a2:0d:d1:cd:fb:4c:87:53:07:11:bb:e6:6f:9f:01:d2:89:ca:b5:55:0b:f4:06:c6:da:ce:e9:24:e4:65:c2:99:e9:c3:97:89:ce:34:a7:13:26:58:ae:2d:2d:c4:4b:cc:d4:1d:8c:96:fd:34:bf:5b:57:4c:ac:6e:fc:d6:9a:97:22:9f:b9:07:f8:55:b6:e2:7d:85:d5:62:7f:05:e1:a0:9b:f8:82:6d:bc:b9:23:6b:ba:42:28"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "23",
+            "tls.record.version": "0x00000303",
+            "tls.record.length": "110",
+            "tls.app_data": "f2:50:55:64:60:2b:a3:08:f0:62:e4:2e:c4:0a:fa:5e:6f:35:a0:a2:0d:d1:cd:fb:4c:87:53:07:11:bb:e6:6f:9f:01:d2:89:ca:b5:55:0b:f4:06:c6:da:ce:e9:24:e4:65:c2:99:e9:c3:97:89:ce:34:a7:13:26:58:ae:2d:2d:c4:4b:cc:d4:1d:8c:96:fd:34:bf:5b:57:4c:ac:6e:fc:d6:9a:97:22:9f:b9:07:f8:55:b6:e2:7d:85:d5:62:7f:05:e1:a0:9b:f8:82:6d:bc:b9:23:6b:ba:42:28"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.824911000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.824911000",
+          "frame.time_delta": "0.000216000",
+          "frame.time_delta_displayed": "0.000216000",
+          "frame.time_relative": "0.000216000",
+          "frame.number": "2",
+          "frame.len": "288",
+          "frame.cap_len": "288",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:ee:61:c1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:0c:29:ed:5f:b1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "274",
+          "ip.id": "0x000071e4",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000b44d",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.src_host": "192.168.152.132",
+          "ip.host": "192.168.152.132",
+          "ip.dst": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.dst_host": "172.217.13.174",
+          "ip.host": "172.217.13.174"
+        },
+        "tcp": {
+          "tcp.srcport": "44246",
+          "tcp.dstport": "443",
+          "tcp.port": "44246",
+          "tcp.port": "443",
+          "tcp.stream": "0",
+          "tcp.len": "234",
+          "tcp.seq": "116",
+          "tcp.nxtseq": "350",
+          "tcp.ack": "1",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "62780",
+          "tcp.window_size": "62780",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x000014b9",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "349",
+            "tcp.analysis.push_bytes_sent": "234"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000216000",
+            "tcp.time_delta": "0.000216000"
+          },
+          "tcp.payload": "17:03:03:00:e5:ac:c7:ac:6f:54:d4:f0:6e:ec:ff:51:4c:7b:32:1b:a3:dd:65:d5:e0:ca:93:8a:de:d3:19:1c:30:bc:7f:6a:53:8e:ab:73:2b:e8:ec:ba:be:e7:25:80:98:39:b6:fa:44:f7:1d:47:90:6d:ef:e8:0f:fc:96:5e:5c:0b:88:c2:42:44:ea:03:64:af:0d:e0:da:94:bb:b3:21:c1:16:78:99:a7:63:f6:8d:70:36:7d:5b:05:f6:0f:73:b8:78:88:d5:a8:f6:bb:da:d7:d9:13:a4:bf:f7:75:29:d5:2d:2d:9b:24:6b:7e:3e:2b:dd:65:6e:a3:7e:ec:39:2e:f8:ea:d5:11:28:0c:b0:87:71:55:73:7d:ab:2e:31:90:65:24:ca:5f:27:59:0c:e8:5f:6a:3f:fd:eb:c8:5a:e9:d4:80:7b:29:1a:0a:7d:08:63:15:65:5b:8b:cf:a9:c2:4d:0e:ce:48:73:39:c0:06:97:77:6a:b6:9c:4e:c8:e7:8d:51:f6:63:46:90:52:8e:a1:16:97:28:06:97:d3:ec:c9:53:bc:e2:de:37:42:ac:91:ea:cc:0f:7c:7a:9a:ee:c1:10:30:e4:56:0f:71:94"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "23",
+            "tls.record.version": "0x00000303",
+            "tls.record.length": "229",
+            "tls.app_data": "ac:c7:ac:6f:54:d4:f0:6e:ec:ff:51:4c:7b:32:1b:a3:dd:65:d5:e0:ca:93:8a:de:d3:19:1c:30:bc:7f:6a:53:8e:ab:73:2b:e8:ec:ba:be:e7:25:80:98:39:b6:fa:44:f7:1d:47:90:6d:ef:e8:0f:fc:96:5e:5c:0b:88:c2:42:44:ea:03:64:af:0d:e0:da:94:bb:b3:21:c1:16:78:99:a7:63:f6:8d:70:36:7d:5b:05:f6:0f:73:b8:78:88:d5:a8:f6:bb:da:d7:d9:13:a4:bf:f7:75:29:d5:2d:2d:9b:24:6b:7e:3e:2b:dd:65:6e:a3:7e:ec:39:2e:f8:ea:d5:11:28:0c:b0:87:71:55:73:7d:ab:2e:31:90:65:24:ca:5f:27:59:0c:e8:5f:6a:3f:fd:eb:c8:5a:e9:d4:80:7b:29:1a:0a:7d:08:63:15:65:5b:8b:cf:a9:c2:4d:0e:ce:48:73:39:c0:06:97:77:6a:b6:9c:4e:c8:e7:8d:51:f6:63:46:90:52:8e:a1:16:97:28:06:97:d3:ec:c9:53:bc:e2:de:37:42:ac:91:ea:cc:0f:7c:7a:9a:ee:c1:10:30:e4:56:0f:71:94"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.825215000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.825215000",
+          "frame.time_delta": "0.000304000",
+          "frame.time_delta_displayed": "0.000304000",
+          "frame.time_relative": "0.000520000",
+          "frame.number": "3",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:0c:29:ed:5f:b1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:ee:61:c1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800",
+          "eth.padding": "00:00:00:00:00:00"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x0000d492",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x00005289",
+          "ip.checksum.status": "2",
+          "ip.src": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.src_host": "172.217.13.174",
+          "ip.host": "172.217.13.174",
+          "ip.dst": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.dst_host": "192.168.152.132",
+          "ip.host": "192.168.152.132"
+        },
+        "tcp": {
+          "tcp.srcport": "443",
+          "tcp.dstport": "44246",
+          "tcp.port": "443",
+          "tcp.port": "44246",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "116",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "64240",
+          "tcp.window_size": "64240",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x0000f29a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "1",
+            "tcp.analysis.ack_rtt": "0.000520000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000520000",
+            "tcp.time_delta": "0.000304000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.825230000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.825230000",
+          "frame.time_delta": "0.000015000",
+          "frame.time_delta_displayed": "0.000015000",
+          "frame.time_relative": "0.000535000",
+          "frame.number": "4",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:0c:29:ed:5f:b1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:ee:61:c1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800",
+          "eth.padding": "00:00:00:00:00:00"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x0000d493",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x00005288",
+          "ip.checksum.status": "2",
+          "ip.src": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.src_host": "172.217.13.174",
+          "ip.host": "172.217.13.174",
+          "ip.dst": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.dst_host": "192.168.152.132",
+          "ip.host": "192.168.152.132"
+        },
+        "tcp": {
+          "tcp.srcport": "443",
+          "tcp.dstport": "44246",
+          "tcp.port": "443",
+          "tcp.port": "44246",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "350",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "64240",
+          "tcp.window_size": "64240",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x0000f1b0",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "2",
+            "tcp.analysis.ack_rtt": "0.000319000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.000535000",
+            "tcp.time_delta": "0.000015000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.902825000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.902825000",
+          "frame.time_delta": "0.077595000",
+          "frame.time_delta_displayed": "0.077595000",
+          "frame.time_relative": "0.078130000",
+          "frame.number": "5",
+          "frame.len": "121",
+          "frame.cap_len": "121",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:0c:29:ed:5f:b1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:ee:61:c1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "107",
+          "ip.id": "0x0000d494",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x00005244",
+          "ip.checksum.status": "2",
+          "ip.src": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.src_host": "172.217.13.174",
+          "ip.host": "172.217.13.174",
+          "ip.dst": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.dst_host": "192.168.152.132",
+          "ip.host": "192.168.152.132"
+        },
+        "tcp": {
+          "tcp.srcport": "443",
+          "tcp.dstport": "44246",
+          "tcp.port": "443",
+          "tcp.port": "44246",
+          "tcp.stream": "0",
+          "tcp.len": "67",
+          "tcp.seq": "1",
+          "tcp.nxtseq": "68",
+          "tcp.ack": "350",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "64240",
+          "tcp.window_size": "64240",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x0000f54a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "67",
+            "tcp.analysis.push_bytes_sent": "67"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.078130000",
+            "tcp.time_delta": "0.077595000"
+          },
+          "tcp.payload": "17:03:03:00:3e:3f:3a:b7:e6:e1:d2:6e:75:f9:81:10:0d:32:f8:3b:1b:83:59:7e:a6:9c:6c:c7:f7:5b:ba:7d:0b:e3:63:fa:93:23:08:7f:e4:d5:53:d7:74:1d:ae:63:ff:c7:8c:dc:4a:43:22:1b:bb:4b:4d:ee:ff:40:25:51:06:9b:e5"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "23",
+            "tls.record.version": "0x00000303",
+            "tls.record.length": "62",
+            "tls.app_data": "3f:3a:b7:e6:e1:d2:6e:75:f9:81:10:0d:32:f8:3b:1b:83:59:7e:a6:9c:6c:c7:f7:5b:ba:7d:0b:e3:63:fa:93:23:08:7f:e4:d5:53:d7:74:1d:ae:63:ff:c7:8c:dc:4a:43:22:1b:bb:4b:4d:ee:ff:40:25:51:06:9b:e5"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.903905000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.903905000",
+          "frame.time_delta": "0.001080000",
+          "frame.time_delta_displayed": "0.001080000",
+          "frame.time_relative": "0.079210000",
+          "frame.number": "6",
+          "frame.len": "416",
+          "frame.cap_len": "416",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:0c:29:ed:5f:b1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:ee:61:c1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "402",
+          "ip.id": "0x0000d495",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000511c",
+          "ip.checksum.status": "2",
+          "ip.src": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.src_host": "172.217.13.174",
+          "ip.host": "172.217.13.174",
+          "ip.dst": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.dst_host": "192.168.152.132",
+          "ip.host": "192.168.152.132"
+        },
+        "tcp": {
+          "tcp.srcport": "443",
+          "tcp.dstport": "44246",
+          "tcp.port": "443",
+          "tcp.port": "44246",
+          "tcp.stream": "0",
+          "tcp.len": "362",
+          "tcp.seq": "68",
+          "tcp.nxtseq": "430",
+          "tcp.ack": "350",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "64240",
+          "tcp.window_size": "64240",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x00002e8a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "429",
+            "tcp.analysis.push_bytes_sent": "362"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.079210000",
+            "tcp.time_delta": "0.001080000"
+          },
+          "tcp.payload": "17:03:03:01:1f:c4:41:a2:5c:51:5d:b5:40:04:31:a8:f0:b5:62:40:b1:c6:0e:79:ff:76:c8:d0:63:26:b3:63:2e:2f:22:c4:c1:d5:8b:89:e6:55:60:44:5e:39:97:4b:92:f7:97:21:7b:ef:c7:78:7f:82:22:6a:ea:8e:f0:d6:b4:9c:7c:8b:a2:f1:31:56:7f:a0:e3:cb:21:e4:f7:b0:a3:4e:1f:7f:51:80:9c:d6:9a:02:19:bb:f6:34:3a:aa:a1:e7:08:c3:39:fc:07:4c:9d:41:75:d3:7e:e6:69:00:f4:be:b7:d0:ba:00:2e:e0:44:ab:5e:e9:06:7e:47:94:bb:86:cc:cb:7a:cb:89:f2:6d:fe:4d:e2:a5:f8:43:d5:14:75:0e:eb:aa:6a:e2:42:c7:71:71:60:73:ec:60:de:54:80:67:d1:3a:a4:78:44:da:d6:88:ea:05:08:74:a4:e0:da:51:22:00:4b:91:4b:ae:22:e3:3e:3b:a4:33:8f:17:09:19:bd:9a:99:57:6a:2b:57:0b:52:80:8c:db:69:34:5d:87:40:9d:9b:56:c8:66:f9:07:40:6b:81:87:0f:8a:7b:ad:16:0f:cf:61:e1:fe:55:c4:b3:f4:02:5d:6a:f2:88:46:fb:2a:9f:01:31:1d:59:ce:00:85:ef:16:fd:a6:2c:ee:65:4b:ae:a7:cf:df:3e:e1:fa:00:c1:a0:91:e0:ad:a5:cc:bf:5c:8f:8e:cf:c4:b7:f2:75:d9:ad:2e:c5:20:53:4f:17:03:03:00:1a:dd:c6:b4:f3:86:fc:9d:ab:7b:2a:b4:6f:e3:2b:c8:2c:b5:84:b3:53:49:34:8a:2a:51:25:17:03:03:00:22:65:77:64:df:22:d9:31:87:02:77:c4:cb:db:ec:1f:12:42:01:76:bd:50:74:69:19:01:dd:88:43:d2:89:d6:2e:77:57"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "23",
+            "tls.record.version": "0x00000303",
+            "tls.record.length": "287",
+            "tls.app_data": "c4:41:a2:5c:51:5d:b5:40:04:31:a8:f0:b5:62:40:b1:c6:0e:79:ff:76:c8:d0:63:26:b3:63:2e:2f:22:c4:c1:d5:8b:89:e6:55:60:44:5e:39:97:4b:92:f7:97:21:7b:ef:c7:78:7f:82:22:6a:ea:8e:f0:d6:b4:9c:7c:8b:a2:f1:31:56:7f:a0:e3:cb:21:e4:f7:b0:a3:4e:1f:7f:51:80:9c:d6:9a:02:19:bb:f6:34:3a:aa:a1:e7:08:c3:39:fc:07:4c:9d:41:75:d3:7e:e6:69:00:f4:be:b7:d0:ba:00:2e:e0:44:ab:5e:e9:06:7e:47:94:bb:86:cc:cb:7a:cb:89:f2:6d:fe:4d:e2:a5:f8:43:d5:14:75:0e:eb:aa:6a:e2:42:c7:71:71:60:73:ec:60:de:54:80:67:d1:3a:a4:78:44:da:d6:88:ea:05:08:74:a4:e0:da:51:22:00:4b:91:4b:ae:22:e3:3e:3b:a4:33:8f:17:09:19:bd:9a:99:57:6a:2b:57:0b:52:80:8c:db:69:34:5d:87:40:9d:9b:56:c8:66:f9:07:40:6b:81:87:0f:8a:7b:ad:16:0f:cf:61:e1:fe:55:c4:b3:f4:02:5d:6a:f2:88:46:fb:2a:9f:01:31:1d:59:ce:00:85:ef:16:fd:a6:2c:ee:65:4b:ae:a7:cf:df:3e:e1:fa:00:c1:a0:91:e0:ad:a5:cc:bf:5c:8f:8e:cf:c4:b7:f2:75:d9:ad:2e:c5:20:53:4f"
+          },
+          "tls.record": {
+            "tls.record.content_type": "23",
+            "tls.record.version": "0x00000303",
+            "tls.record.length": "26",
+            "tls.app_data": "dd:c6:b4:f3:86:fc:9d:ab:7b:2a:b4:6f:e3:2b:c8:2c:b5:84:b3:53:49:34:8a:2a:51:25"
+          },
+          "tls.record": {
+            "tls.record.content_type": "23",
+            "tls.record.version": "0x00000303",
+            "tls.record.length": "34",
+            "tls.app_data": "65:77:64:df:22:d9:31:87:02:77:c4:cb:db:ec:1f:12:42:01:76:bd:50:74:69:19:01:dd:88:43:d2:89:d6:2e:77:57"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.904075000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.904075000",
+          "frame.time_delta": "0.000170000",
+          "frame.time_delta_displayed": "0.000170000",
+          "frame.time_relative": "0.079380000",
+          "frame.number": "7",
+          "frame.len": "54",
+          "frame.cap_len": "54",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:ee:61:c1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:0c:29:ed:5f:b1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x000071e5",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000b536",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.src_host": "192.168.152.132",
+          "ip.host": "192.168.152.132",
+          "ip.dst": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.dst_host": "172.217.13.174",
+          "ip.host": "172.217.13.174"
+        },
+        "tcp": {
+          "tcp.srcport": "44246",
+          "tcp.dstport": "443",
+          "tcp.port": "44246",
+          "tcp.port": "443",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "350",
+          "tcp.nxtseq": "350",
+          "tcp.ack": "430",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "62780",
+          "tcp.window_size": "62780",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x000013cf",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "6",
+            "tcp.analysis.ack_rtt": "0.000170000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.079380000",
+            "tcp.time_delta": "0.000170000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.904167000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.904167000",
+          "frame.time_delta": "0.000092000",
+          "frame.time_delta_displayed": "0.000092000",
+          "frame.time_relative": "0.079472000",
+          "frame.number": "8",
+          "frame.len": "93",
+          "frame.cap_len": "93",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:50:56:ee:61:c1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:0c:29:ed:5f:b1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "79",
+          "ip.id": "0x000071e6",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000b50e",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.src_host": "192.168.152.132",
+          "ip.host": "192.168.152.132",
+          "ip.dst": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.dst_host": "172.217.13.174",
+          "ip.host": "172.217.13.174"
+        },
+        "tcp": {
+          "tcp.srcport": "44246",
+          "tcp.dstport": "443",
+          "tcp.port": "44246",
+          "tcp.port": "443",
+          "tcp.stream": "0",
+          "tcp.len": "39",
+          "tcp.seq": "350",
+          "tcp.nxtseq": "389",
+          "tcp.ack": "430",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "62780",
+          "tcp.window_size": "62780",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x000013f6",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight": "39",
+            "tcp.analysis.push_bytes_sent": "39"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.079472000",
+            "tcp.time_delta": "0.000092000"
+          },
+          "tcp.payload": "17:03:03:00:22:04:1a:6f:e5:a8:45:4b:1d:ff:15:74:fc:08:65:9a:6a:18:c5:05:40:8f:a0:0d:d7:14:06:7e:40:5b:54:38:6b:a8:56"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "23",
+            "tls.record.version": "0x00000303",
+            "tls.record.length": "34",
+            "tls.app_data": "04:1a:6f:e5:a8:45:4b:1d:ff:15:74:fc:08:65:9a:6a:18:c5:05:40:8f:a0:0d:d7:14:06:7e:40:5b:54:38:6b:a8:56"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2019-11-25",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Nov 25, 2019 18:14:21.904354000 Est",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1574723661.904354000",
+          "frame.time_delta": "0.000187000",
+          "frame.time_delta_displayed": "0.000187000",
+          "frame.time_relative": "0.079659000",
+          "frame.number": "9",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "00:0c:29:ed:5f:b1",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Vmware_ed:5f:b1",
+            "eth.addr": "00:0c:29:ed:5f:b1",
+            "eth.addr_resolved": "Vmware_ed:5f:b1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:50:56:ee:61:c1",
+          "eth.src_tree": {
+            "eth.src_resolved": "Vmware_ee:61:c1",
+            "eth.addr": "00:50:56:ee:61:c1",
+            "eth.addr_resolved": "Vmware_ee:61:c1",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x00000800",
+          "eth.padding": "00:00:00:00:00:00"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x0000d496",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x00005285",
+          "ip.checksum.status": "2",
+          "ip.src": "172.217.13.174",
+          "ip.addr": "172.217.13.174",
+          "ip.src_host": "172.217.13.174",
+          "ip.host": "172.217.13.174",
+          "ip.dst": "192.168.152.132",
+          "ip.addr": "192.168.152.132",
+          "ip.dst_host": "192.168.152.132",
+          "ip.host": "192.168.152.132"
+        },
+        "tcp": {
+          "tcp.srcport": "443",
+          "tcp.dstport": "44246",
+          "tcp.port": "443",
+          "tcp.port": "44246",
+          "tcp.stream": "0",
+          "tcp.len": "0",
+          "tcp.seq": "430",
+          "tcp.nxtseq": "430",
+          "tcp.ack": "389",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x00000010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······A····"
+          },
+          "tcp.window_size_value": "64240",
+          "tcp.window_size": "64240",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x0000efdc",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "8",
+            "tcp.analysis.ack_rtt": "0.000187000"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.079659000",
+            "tcp.time_delta": "0.000187000"
+          }
+        }
+      }
+    }
+  }
+]
